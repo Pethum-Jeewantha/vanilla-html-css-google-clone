@@ -70,3 +70,17 @@ nav button {
 nav button:hover {
   background-color: #2b7de9;
 }
+
+.image {
+  height: 300px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.image img {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 300px;
+}
