@@ -84,3 +84,78 @@ nav button:hover {
   transform: translateX(-50%);
   width: 300px;
 }
+
+#search {
+  border: 1px solid #d8cece;
+  border-radius: 20px;
+  height: 44px;
+  left: 50%;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 582px;
+}
+
+#search:focus-within,
+#search:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+#search span {
+  left: 2%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#search input {
+  border: 0;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 93%;
+}
+
+#search input:focus {
+  outline: none;
+}
+
+section button {
+  background-color: #f8f9fa;
+  border: 1px solid white;
+  color: #202124;
+  font-size: 14px;
+  font-weight: 600;
+  height: 36px;
+  left: 49%;
+  margin: 25px 10px;
+  padding: 0 16px;
+  position: relative;
+  transform: translateX(-100%);
+}
+
+section button:hover {
+  border: 1px solid #dadce0;
+  cursor: pointer;
+}
+
+div section:last-child {
+  padding: 0 0 20px;
+}
+
+div section:last-child p {
+  font-size: 13px;
+  position: relative;
+  text-align: center;
+}
+
+div section:last-child a {
+  margin-left: 5px;
+}
