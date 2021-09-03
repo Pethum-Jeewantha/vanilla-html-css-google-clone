@@ -72,7 +72,7 @@ nav button:hover {
 }
 
 .image {
-  height: 300px;
+  height: 32vh;
   position: relative;
   margin-bottom: 10px;
 }
@@ -158,4 +158,48 @@ div section:last-child p {
 
 div section:last-child a {
   margin-left: 5px;
+}
+
+footer {
+  background-color: #ecf0f1;
+  bottom: 0;
+  color: rgba(0, 0, 0, 0.54);
+  position: fixed;
+  width: 100%;
+}
+
+footer p,
+footer section {
+  border-bottom: 1px solid #dfe6e9;
+  padding: 15px 30px;
+  font-size: 15px;
+}
+
+footer section {
+  position: relative;
+  height: 46px;
+}
+
+#left-menu {
+  bottom: 50%;
+  left: 20px;
+  position: absolute;
+  transform: translateY(50%);
+}
+
+#right-menu {
+  bottom: 50%;
+  position: absolute;
+  right: 30px;
+  transform: translateY(50%);
+}
+
+footer li {
+  display: inline;
+  padding: 10px;
+}
+
+footer li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
