@@ -234,4 +234,13 @@ footer li:hover {
   }
 }
 
+@media all and (max-width: 360px){
+  section button:last-child{
+    display: none;
+  }
 
+  section button:first-child{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
