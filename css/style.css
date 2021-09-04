@@ -205,52 +205,53 @@ footer li:hover {
 }
 
 @media all and (max-width: 720px) {
-  #search{
+  #search {
     width: 84%;
   }
 
-  footer section{
+  footer section {
     height: 70px;
   }
 
-  #left-menu{
+  #left-menu {
     bottom: 66.6%;
   }
 
-  #right-menu{
+  #right-menu {
     bottom: 33.3%;
     display: block;
     left: 20px;
   }
 }
 
-@media all and (max-width: 480px){
-  #search span{
+@media all and (max-width: 480px) {
+  #search span {
     display: none;
   }
 
-  footer section{
+  footer section {
     display: none;
   }
 }
 
-@media all and (max-width: 360px){
-  section button:last-child{
+@media all and (max-width: 360px) {
+  section button:last-child {
     display: none;
   }
 
-  section button:first-child{
+  section button:first-child {
     left: 50%;
     transform: translateX(-50%);
   }
 }
 
-@media all and (max-width: 320px){
-  nav menu, nav svg{
+@media all and (max-width: 320px) {
+  nav menu,
+  nav svg {
     display: none;
   }
 
-  nav button{
+  nav button {
     background-color: white;
     color: purple;
     left: 50%;
@@ -258,31 +259,31 @@ footer li:hover {
     top: 20%;
   }
 
-  nav button:hover{
+  nav button:hover {
     background-color: white;
     border: 1px solid #dadce0;
   }
 
-  .image img{
+  .image img {
     display: none;
   }
 
-  #search{
+  #search {
     height: 30px;
   }
 
-  div section:last-child{
+  div section:last-child {
     display: none;
   }
 
-  section button:first-child{
+  section button:first-child {
     background-color: white;
     color: purple;
     left: 50%;
     transform: translateX(-55%);
   }
 
-  footer p{
+  footer p {
     display: none;
   }
 }
