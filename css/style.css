@@ -244,3 +244,45 @@ footer li:hover {
     transform: translateX(-50%);
   }
 }
+
+@media all and (max-width: 320px){
+  nav menu, nav svg{
+    display: none;
+  }
+
+  nav button{
+    background-color: white;
+    color: purple;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+  }
+
+  nav button:hover{
+    background-color: white;
+    border: 1px solid #dadce0;
+  }
+
+  .image img{
+    display: none;
+  }
+
+  #search{
+    height: 30px;
+  }
+
+  div section:last-child{
+    display: none;
+  }
+
+  section button:first-child{
+    background-color: white;
+    color: purple;
+    left: 50%;
+    transform: translateX(-55%);
+  }
+
+  footer p{
+    display: none;
+  }
+}
