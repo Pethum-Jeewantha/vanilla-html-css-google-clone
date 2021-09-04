@@ -134,11 +134,11 @@ section button {
   font-size: 14px;
   font-weight: 600;
   height: 36px;
-  left: 49%;
+  left: 50%;
   margin: 25px 10px;
   padding: 0 16px;
   position: relative;
-  transform: translateX(-100%);
+  transform: translateX(-115%);
 }
 
 section button:hover {
@@ -223,3 +223,15 @@ footer li:hover {
     left: 20px;
   }
 }
+
+@media all and (max-width: 480px){
+  #search span{
+    display: none;
+  }
+
+  footer section{
+    display: none;
+  }
+}
+
+
