@@ -209,6 +209,10 @@ footer li:hover {
     width: 84%;
   }
 
+  footer p{
+    text-align: center;
+  }
+
   footer section {
     height: 70px;
   }
@@ -230,7 +234,19 @@ footer li:hover {
   }
 
   footer section {
+    height: 50px;
+  }
+
+  #left-menu {
     display: none;
+  }
+
+  #right-menu{
+    bottom: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,50%);
+    width: 80%;
   }
 }
 
@@ -265,7 +281,7 @@ footer li:hover {
   }
 
   .image img {
-    display: none;
+    width: 80%;
   }
 
   #search {
@@ -283,7 +299,7 @@ footer li:hover {
     transform: translateX(-55%);
   }
 
-  footer p {
+  footer {
     display: none;
   }
 }
