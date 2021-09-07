@@ -66,7 +66,7 @@
 
 .page__header {
   justify-content: space-between;
-  margin-top: 21px;
+  margin-top: 20px;
   padding: 6px 21px;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .header__search-icon {
-  visibility: hidden;
+  display: none;
   width: 20px;
   height: 20px;
   color: #9aa0a6;
@@ -100,12 +100,12 @@
   border: 1px solid transparent;
   box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
   height: 46px;
-  width: 692px;
+  width: 83%;
   border-radius: 24px;
 }
 
 .header__search-bar:focus-within .header__search-icon {
-  visibility: visible;
+  display: inline;
 }
 
 .header__search-bar:focus-within,
@@ -125,9 +125,12 @@
 }
 #gsc-iw-id1 {
   display: flex;
-  margin-left: 13px;
   border: none;
   outline: none;
+}
+
+#gsc-i-id1 {
+  font-size: 14px;
 }
 
 .gsc-search-button {
@@ -175,4 +178,25 @@
 
 .gsc-orderby {
   display: none;
+}
+
+.gsc-adBlockNoHeight{
+  visibility: hidden !important;
+}
+
+.gs-title {
+  font-size: 20px !important;
+}
+
+.gs-title:hover {
+  text-decoration: underline !important;
+}
+
+.gsc-control-cse-en {
+  width: 59% !important;
+  margin-left: 150px;
+}
+
+.gs-bidi-start-align{
+  font-size: 14px;
 }
