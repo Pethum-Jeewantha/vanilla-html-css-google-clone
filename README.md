@@ -1,7 +1,7 @@
 # Google Clone
 
 ### Version
-1.1.0
+1.1.11
 ### License
 Copyright &copy; Pethum Jeewantha. All Rights Reserved.
 License under the [MIT](LICENSE.txt) License.
