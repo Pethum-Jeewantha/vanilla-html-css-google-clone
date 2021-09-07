@@ -6,8 +6,8 @@
   "license": "",
   "author": "Pethum Jeewantha <pethumjeewantha4@gmail.com> (https://pethumjeewantha.com)",
   "scripts": {
-    "clean": "rm -rf docs",
-    "build": "parcel build index.html 404.html --out-dir docs",
+    "clean": "rm -rf dist",
+    "build": "parcel build index.html 404.html",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev"
   },
