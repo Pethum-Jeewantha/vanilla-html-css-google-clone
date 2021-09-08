@@ -131,6 +131,8 @@
   display: inline;
 }
 
+.page__header.sticky .header__search-bar:focus-within,
+.page__header.sticky .header__search-bar:hover,
 .header__search-bar:focus-within,
 .header__search-bar:hover {
   background-color: #fff;
@@ -211,8 +213,8 @@
   display: none;
 }
 
-#e1.z_.styleable-rootcontainer.b_ {
-  /* background-color: #1a73e8 !important;  */
+#adBlock{
+  background-color: #1a73e8;
 }
 
 .gs-title {
