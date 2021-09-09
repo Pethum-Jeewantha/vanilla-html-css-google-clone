@@ -74,6 +74,11 @@
   background-color: white;
 }
 
+.header__hamburger {
+  display: none;
+  cursor: pointer;
+}
+
 .page__header.sticky {
   box-shadow: 0 3px 5px -5px rgb(20, 20, 20);
 }
@@ -83,6 +88,7 @@
   align-items: center;
   justify-content: space-between;
   width: 830px;
+  max-width: 830px;
 }
 
 .header__image-wrapper img {
@@ -118,11 +124,15 @@
   border-radius: 24px;
 }
 
+.page__header.sticky .header__hamburger {
+  width: 90%;
+  margin-left: 50px;
+}
+
 .page__header.sticky .header__search-bar {
   border: 1px solid #d7d8da;
   box-shadow: none;
-  margin-left: 50px;
-  width: 90%;
+  width: 87%;
   height: 34px;
 }
 
@@ -147,6 +157,7 @@
   padding-top: 4px;
   width: 100%;
 }
+
 #gsc-iw-id1 {
   display: flex;
   border: none;
@@ -324,30 +335,90 @@
 }
 
 @media all and (max-width: 1100px) {
-  .header__app-icon{
+  .header_search-bar {
+    width: 80vw;
+  }
+
+  .page__header.sticky .header_search-wrapper {
+    height: 9.5vh;
+  }
+
+  .header_search-wrapper {
+    flex-direction: column;
+    height: 14vh;
+    justify-content: space-between;
+  }
+
+  .page__header.sticky .header__image-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header__image-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 30%;
+  }
+
+  .page__header.sticky .header__image-wrap img {
+    width: 120px;
+    height: 40px;
+  }
+
+  .page__header.sticky .header__hamburger svg {
+    width: 40px;
+    height: 30px;
+  }
+
+  .page__header.sticky .header__hamburger {
+    margin-left: 0;
+  }
+
+  .header__image-wrap img {
+    width: 200px;
+    height: 60px;
+  }
+
+  .page__header.sticky {
+    margin-top: 10px;
+    align-items: flex-start;
+    height: 12vh;
+  }
+  .page__header {
+    align-items: flex-start;
+    height: 13.5vh;
+  }
+
+  .header__hamburger {
+    display: block;
+  }
+
+  .header__app-icon {
     display: none;
   }
-  .gsc-result{
+  .gsc-result {
     width: 80vw !important;
-    
   }
 }
 
-@media all and (max-width: 850px){
-  .footer__top-footer, .footer__bottom-footer{
+@media all and (max-width: 850px) {
+  .footer__top-footer,
+  .footer__bottom-footer {
     margin: auto;
     justify-content: center;
   }
 }
 
-@media all and (max-width: 485px){
-  .footer__top-div{
+@media all and (max-width: 485px) {
+  .footer__top-div {
     border: 0;
   }
 }
 
-@media all and (max-width: 420px){
-  .footer__top-div{
+@media all and (max-width: 420px) {
+  .footer__top-div {
     display: none;
   }
 }
