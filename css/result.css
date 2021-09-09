@@ -122,7 +122,7 @@
   border: 1px solid #d7d8da;
   box-shadow: none;
   margin-left: 50px;
-  width: 719px;
+  width: 90%;
   height: 34px;
 }
 
@@ -226,16 +226,16 @@
 }
 
 #resInfo-1 {
-  margin-left: 150px;
+  margin-left: 8vw;
 }
 
 .gsc-result {
   width: 700px !important;
-  margin-left: 150px !important;
+  margin-left: 8vw !important;
 }
 
 .gsc-adBlock {
-  margin-left: 150px;
+  margin-left: 8vw;
 }
 
 .gs-bidi-start-align {
@@ -243,7 +243,7 @@
 }
 
 .gsc-cursor-box {
-  margin-left: 155px !important;
+  margin-left: 8vw !important;
 }
 
 .gsc-cursor-box * {
@@ -257,14 +257,14 @@
 .footer {
   background-color: #f2f2f2;
   line-height: 40px;
-  min-width: 1261px;
   padding-bottom: 12px;
   color: rgba(0, 0, 0, 0.54);
 }
 
 .footer__top-footer {
   display: flex;
-  margin-left: 170px;
+  flex-wrap: wrap;
+  margin-left: 8.5vw;
   padding-top: 12px;
   align-items: center;
 }
@@ -288,6 +288,7 @@
   padding-left: 16px;
   border-left: 1px solid #dadce0;
   font-size: 14px;
+  justify-content: center;
 }
 
 .footer__anchor {
@@ -305,7 +306,7 @@
   list-style-type: none;
   flex-wrap: wrap;
   font-size: 14px;
-  margin-left: 140px;
+  margin-left: 8.5vw;
 }
 
 .footer__bottom-footer {
@@ -314,7 +315,7 @@
   align-items: center;
 }
 
-.footer__menu-item {
+.footer__menu-item:not(.footer__menu *:first-child) {
   padding-left: 30px;
 }
 
@@ -322,55 +323,31 @@
   color: rgba(0, 0, 0, 0.54);
 }
 
-@media all and (max-width: 1045px) {
-  .header__image-wrapper img {
-    display: block;
+@media all and (max-width: 1100px) {
+  .header__app-icon{
+    display: none;
   }
-
-  .gsc-result {
-    max-width: 90% !important;
-    margin: auto !important;
-  }
-
-  #resInfo-1 {
-    margin-left: 13%;
+  .gsc-result{
+    width: 80vw !important;
+    
   }
 }
 
-@media all and (max-width: 680px) {
-  .header__sign-in-wrapper {
+@media all and (max-width: 850px){
+  .footer__top-footer, .footer__bottom-footer{
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 485px){
+  .footer__top-div{
+    border: 0;
+  }
+}
+
+@media all and (max-width: 420px){
+  .footer__top-div{
     display: none;
-  }
-
-  .page__header {
-    height: 65px;
-  }
-
-  #resInfo-1 {
-    display: none;
-  }
-
-  .header_search-wrapper {
-    flex-direction: column;
-  }
-
-  .header__image-wrapper {
-    margin-bottom: 10px;
-  }
-
-  .header__image-wrapper {
-    width: 100px;
-  }
-
-  .header__search-bar {
-    width: 90%;
-  }
-
-  .header__search-icon_blue {
-    display: none;
-  }
-
-  .header__search-bar:focus-within {
-    width: 92%;
   }
 }
