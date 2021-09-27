@@ -219,9 +219,12 @@
   display: flex;
   color: #5f6368;
   padding-left: 175px;
-  margin-top: 30px;
   justify-content: space-between;
   border-bottom: 1px solid #e6e6e6;
+}
+
+.page__result-icons{
+  margin-top: 30px;
 }
 
 .result-icons__wrapper{
@@ -257,10 +260,13 @@
 }
 
 .result-icons svg{
-  padding-right: 2px;
   width: 16px;
   height: 16px;
   fill: #5f6368;
+}
+
+.result-icons svg:not(.result-icons__left div:last-child svg){
+  padding-right: 5px;
 }
 
 #gs_cb50 {
